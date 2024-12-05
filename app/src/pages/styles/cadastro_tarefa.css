@@ -1,0 +1,25 @@
+.form_tarefa {
+    background-color: none;
+    height: 50vh;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+select {
+    margin-left: 10px;
+    background-color: rgb(250, 250, 250);
+}
+
+.cadastrar_tarefa {
+    width: 150px;
+}
+
+.select_usuario {
+    width: 150px;
+}

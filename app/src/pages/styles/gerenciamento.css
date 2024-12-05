@@ -1,0 +1,17 @@
+.column {
+    width: 30vw;
+    height: 100vh;
+}
+
+.task-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.titulo {
+    font-size: 20px;
+}

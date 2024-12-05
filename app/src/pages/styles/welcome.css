@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../assets/fonts/DMSans.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Bricolage Grotesque';
+    src: url('../assets/fonts/BricolageGrotesque.ttf') format('truetype');
+  }
+
+.home-content h1 {
+    font-size: 50px;
+    color: #5F55DF;
+}
+
+.home-content p {
+    font-family: 'DM Sans';
+}
+
+.texto_imagem {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ilustracao img{
+    width: 30vw;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+}
+

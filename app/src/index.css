@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    gap: 0;
+    margin: 0;
+    font-family: 'DM Sans';
+    font-family: 'Bricolage Grotesque';
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('/app/src/assets/fonts/DMSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    src: url('/app/src/assets/fonts/BricolageGrotesque.ttf') format('truetype');
+}

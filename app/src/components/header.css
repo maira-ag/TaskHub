@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../assets/fonts/DMSans.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('../assets/fonts/BricolageGrotesque.ttf') format('truetype');
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #5F55DF;
+    color: white;
+    height: 13vh;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .link_logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 3vw;
+  }
+
+  .link_logo h1{
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Bricolage Grotesque';
+    font-weight: 500;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .botao_nav {
+    border: 1.5px solid #ffffff;
+    border-radius: 25px;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3vw;
+  }
+
+  #botao_cadastro_usuario, #botao_cadastro_tarefas {
+    width: 15vw;
+  }
+
+  #botao_home {
+    width: 9.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #botao_home img {
+    width: 1.6vw;
+    height: 3.4vh;
+  }
+
+  #link_gerenciamento {
+    width: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .link_telas {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-weight: 300;
+    color: white;
+  }
+
+  .link_telas:visited {
+    color: white;
+  }
+
+  .botao_nav:hover {
+    border: 1.5px solid #ffffff;
+    border-radius: 12px;
+    transition: border-radius 0.3s ease;
+  }

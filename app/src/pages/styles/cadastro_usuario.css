@@ -1,0 +1,27 @@
+form {
+    width: 40vw;
+    height: 40vh;
+    margin-top: 8vh;
+    margin-left: 2vw;
+}
+
+input {
+    border: none;
+    background-color: rgb(231, 229, 229);
+    height: 5vh;
+    width: 13vw;
+    background-color: none;
+    border-radius: 5px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+button {
+    background-color: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3vh;
+}
